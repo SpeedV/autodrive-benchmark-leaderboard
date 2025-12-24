@@ -1,0 +1,5 @@
+- name: "White Agent"
+  image: "ghcr.io/speedv/white-agent:v1"
+  env:
+     # If your white agent needs keys
+     OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

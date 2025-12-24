@@ -1,0 +1,12 @@
+# agentbeats.yaml
+
+# 1. The Judge (Green Agent)
+evaluator:
+  image: "ghcr.io/speedv/green-agent:v1"
+  env:
+    # If your green agent needs an API key to judge
+    OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+# 2. The Benchmark Settings
+benchmark:
+  timeout: 600  # 10 minutes max
