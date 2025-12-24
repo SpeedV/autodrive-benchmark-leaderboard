@@ -1,4 +1,4 @@
-- name: "White Agent"
+- name: "White Agent v1"
   image: "ghcr.io/speedv/white-agent:v1"
   env:
      # If your white agent needs keys
